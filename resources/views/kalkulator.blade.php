@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KALKULATOR UKK</title>
      <style>
+        form{
+            width: 100%;
+            margin: 0 auto;
+            padding: 100%;
+            border: 3px solid black;
+            border-radius: 8px;
+            background-color: green;  
+        }
         table{
             border : 1 solid black;
             margin-left: auto;
@@ -13,20 +21,20 @@
         }
         input[type="button"]{
             width:  100%;
-            padding: 50px 60px;
-            background-color:  pink;
+            padding: 25px 45px;
+            background-color:  yellow;
             color: black;
             font-size: 24px;
             font-weight: bold;
-            border: none;
-            border-radius: 5px;
+            border: auto;
+            border-radius: 10px;
         }
         input[type="text"]{
-            padding: 20px 110px;
+            padding: 25px 45px;
             font-size: 24px;
             font-weight: bold;
             border: none;
-            border-radius: px;
+            border-radius: 99px;
             border: 2px solid black;
         }
      </style>
